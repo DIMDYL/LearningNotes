@@ -20,9 +20,9 @@
 }
 
 .sidebar-nav ul:not(.app-sub-sidebar) > li.folder::before {
-    background: center/contain no-repeat url(/img/filder.png)
+    background: center/contain no-repeat url(../img/filder.png)
 }
 
 .sidebar-nav ul:not(.app-sub-sidebar) > li.file::before {
-    background: center/contain no-repeat url(/img/file.png)
+    background: center/contain no-repeat url(../img/file.png)
 }
