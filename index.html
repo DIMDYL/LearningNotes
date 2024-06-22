@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+   <meta name="description" content="">
+   <title>好好学习 - 天天向上</title>
+   <!-- 折叠侧边 -->
+   <link rel="stylesheet" href="./css/sidebar.min.css"/>
+   <link rel="stylesheet" href="./css/sidebar-folder.min.css"/>
+   <!-- 代码点亮 -->
+   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+   <!-- Themes (light + dark) -->
+   <link rel="stylesheet" href="./css/vue.css">
+   <!-- Custom Styles -->
+   <style>
+    td::before{
+      display: none !important;
+    }
+    .sidebar{
+      /*  文字禁止被选中*/
+      user-select:none; 
+    }
+    .search .clear-button{
+      background-color: white;
+      border: none;
+      padding: 0;
+      margin: 0;
+      margin-left: 6px !important;
+      box-sizing: border-box !important;
+      text-align: center !important;
+    }
+    a{
+      /* padding: 0 !important; */
+      text-decoration: none !important;
+    }
+    .sidebar .sidebar-nav {
+      line-height: 2em;
+    }
+    ::-webkit-scrollbar-thumb{
+      background-color:#737072;
+      height:50px;
+      outline-offset:-2px;
+      outline:2px solid #fff;
+      -webkit-border-radius:4px;
+      border: 2px solid #fff;
+    }
+    ::-webkit-scrollbar{
+      width:8px;
+      height:8px;
+    }
+    /*滚动框背景样式*/
+    ::-webkit-scrollbar-track-piece{
+      background-color:#fff;
+      -webkit-border-radius:0;
+    }
+     :root {
+      --theme-hue: 325;
+       /* --theme-hue: 325; */
+     }
+   </style>
+</head>
+<body>
+   <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '好好学习',
+      coverpage: true,
+      repo: '',
+      auto2top: true,   //切换页面自动回到顶部
+      subMaxLevel: 2,
+      loadSidebar: true,
+      maxLevel: 2,      //可配置最大支持渲染的标题层级
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      //添加搜索功能，中文和英文文档同时搜索
+      search: {
+        paths: 'auto',
+        placeholder: {
+            '/': '🔍 搜索',
+        },
+        //如果中文和英文文档都没有内容，则返回
+        noData: {
+            '/': '😒 找不到结果',
+        },
+
+        depth: 4,         //搜索标题的最大层级
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+      },//增加搜索框
+      'flexible-alerts': {
+          style: 'flat'
+      }
+    }
+  </script>
+  <!-- Required -->
+  <script src="./js/docsify.min.js"></script>
+  <script src="./js/docsify-themeable.min.js"></script>
+  <!-- Recommended -->
+  <script src="./js/search.js"></script>
+  <script src="./js/zoom-image.min.js"></script>
+  <!-- 折叠 -->
+  <!-- plugins -->
+  <script src="./js/docsify-sidebar-collapse.min.js"></script>
+  <!-- Markdown 引用样式美化 -->
+</body>
+</html>
