@@ -63,7 +63,7 @@
      - [spring整合mybatis](word\SSM\Spring\spring整合mybatis.md)
 - SpringMVC
      - [接收json数据](word\SSM\SpringMvc\接收json数据.md)
-     - [配置](word\SSM\SpringMvc\配置 .md)
+     - [配置](word\SSM\SpringMvc\配置.md)
      - [接收请求值为日期类型](word\SSM\SpringMvc\接收请求值为日期类型.md)
      - [bean加载配置](word\SSM\SpringMvc\bean加载配置.md)
      - [响应数据](word\SSM\SpringMvc\响应数据.md)
@@ -162,4 +162,3 @@
   - [DockerCompose一键部署](word\docker\docker-compose一键部署.md)
 - SpringCloud
   - [认识微服务](word\SpringCloud\认识微服务.md)
-  - [项目拆分](Fword\SpringCloud\项目拆分.md)

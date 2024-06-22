@@ -1,4 +1,4 @@
-<img width="160px" style="border-radius: 50%" bor src="/img/dim.jpg">
+<img width="160px" style="border-radius: 50%" bor src="./img/dim.jpg">
 
 > DIM云龙
 
