@@ -7,11 +7,11 @@
 
 .sidebar-nav ul:not(.app-sub-sidebar) > li.folder.open::before {
     display: block;
-    background: center/contain no-repeat url(/img/filder-open.png);
+    background: center/contain no-repeat url(../img/filder-open.png);
 }
 .sidebar-nav ul:not(.app-sub-sidebar) > li.file.open::before {
     display: block;
-    background: center/contain no-repeat url(/img/file-open.png);
+    background: center/contain no-repeat url(../img/file-open.png);
 }
 .sidebar-nav ul:not(.app-sub-sidebar) > li.collapse::before {
 }
