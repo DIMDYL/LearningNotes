@@ -41,3 +41,14 @@ public getbook get() {
     <version>3.5.3</version>
 </dependency>
 ```
+
+## getOne()
+
+指定一个实体设置属性值根据属性值做查询条件
+
+```java
+UserEntity userEntity = new UserEntity();
+userEntity.setPhoneNumber(authorizedlearnersDTO.getPhoneNumber());
+QueryWrapper<UserEntity> wrapper = new QueryWrapper<>(userEntity);
+UserEntity user = Db.getOne(wrapper);
+```

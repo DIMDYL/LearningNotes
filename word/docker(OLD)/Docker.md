@@ -35,7 +35,7 @@ yum makecache fast
 6、安装docker
 
 ``` shell
-yum install docker-ce docker-ce-cli containerd.io
+yum install docker-ce docker-ce-cli containerd.io -y
 ```
 
 ## 阿里云镜像加速       

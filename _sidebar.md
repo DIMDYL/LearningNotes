@@ -10,6 +10,11 @@
    - [跨层级传递数据](word\Vue3\跨层级传递数据.md)
    - [小技巧](word\Vue3\小技巧.md)
    - [Pinia](word\Vue3\Pinia.md)
+   - [请求封装](word\Vue3\请求封装.md)
+   - [文字溢出显示省略号](word\Vue3\文字溢出显示省略号.md)
+   - [防抖](word\Vue3\防抖.md)
+   - [点击头像上传](word\Vue3\点击头像上传.md)
+   - [路由过度](word\Vue3\路由过度.md)
 - 微信小程序
      - [简介](word\微信小程序\简介.md)
      - [小程序的结构](word\微信小程序\小程序的结构.md)
@@ -155,6 +160,7 @@
 * Redis
   - [常用命令](word\Redis\常用命令.md)
   - [Jedis](word\Redis\java客户端.md)
+  - [SpringDataRedis](word\Redis\SpringDataRedis.md)
 - docker
   - [docker基础](word\docker\Docker.md)
   - [部署一个Mysql](word\docker\docker部署一个Mysql.md)

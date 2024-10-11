@@ -4,6 +4,20 @@ stream流在jdk8以后新增的，可以用于操作集合或者数组的数据
 
 优势：stream大量的结合lambda的语法风格来编程，提供了一种更加强大，更加简单的操作数组和集合
 
+## 获取集合中的指定元素
+
+collect：收集
+
+Collectors.toSet()：Set集合中
+
+.map：中间操作，对数据做处理，产生的流，不会返回数据，只有通过收集器才能收集到数据
+
+.map一般用于提取数据
+
+```java
+Set<Long> itemIds = vos.stream().map(CartVO::getItemId).collect(Collectors.toSet());
+```
+
 ## Map获取stream流
 
 方式1：
